@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  background-color: whitesmoke;
+  display: flex;
+  padding: 50px;
+  width: 900px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.308);
+}
+.profile-img {
+  width: 150px;
+  margin-top: -9px;
+  border-radius: 50%;
+  height: 160px;
+  border: 18px solid rgba(128, 128, 128, 0.178);
+}
+.info {
+  margin-left: 30px;
+  color: #555;
+  font-weight: 500;
+}
+.info h1 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.info ul {
+  display: flex;
+  align-items: center;
+  margin-left: 10px 0 30px;
+}
+.info ul li {
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  gap: 1px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.link {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.link a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  color: blueviolet;
+  background: burlywood;
+  border-radius: 10px;
+  border: 2px solid burlywood;
+  padding: 10px 30px;
+  margin-right: 20px;
+  font-size: 12px;
+}
+.link a i {
+  width: 25px;
+  margin-right: -2px;
+}
+.link .msg-btn {
+  background: white;
+  color: burlywood;
+}
